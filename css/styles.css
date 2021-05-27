@@ -1,0 +1,23 @@
+h1{
+    color:blue;
+
+}
+
+h1{
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header nav a{
+    padding-left: 1em;
+    text-decoration: none;
+    color: #3b89fd;
+}
+header nav{
+    width: 23em;
+    display: flex;
+    justify-content: space-between ;
+}
