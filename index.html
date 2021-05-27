@@ -20,13 +20,16 @@
     </header>
     <main>
         <section id="choice">
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou en pleine nature</p>
-            <div>
-                <form action="traitement.php" method="POST">
+            <h1>Trouvez votre hébergement pour des vacances de rêve <br><pan class="titre-nongras">En plein centre ville ou en pleine nature</pan></h1>
+            <div id="formulaire">
+                <form class="form" action="traitement.php" method="POST">
                     <i class="fas fa-map-marker-alt"></i>
                     <input type="text" name="ville" placeholder="Marseille, France">
-                    <button>Rechercher</button>
+                    <div class="bouton">
+                        <p>
+                            <a href="#">Rechercher</a>
+                        </p>
+                    </div>
                 </form>
             </div>
             <div id="filter">

@@ -1,23 +1,70 @@
-h1{
-    color:blue;
+*{
+    font-family: sans-serif;
+}
 
+.titre-nongras{
+    font-weight: normal;
+    font-size: 0.8em;
 }
 
 h1{
     color: black;
+        
+}
+
+#formulaire{
+    border: 1px solid grey;
+    
+    background-color: blue;
+    width: 28em;
+    background-color: blue;
+    border-radius: 10px;    
+}
+
+#formulaire i{
+    width: 4em;
+    text-align: center;
+    
+}
+
+#formulaire input{
+    width: 25em;
+    
+}
+
+
+.bouton{
+    width: 200px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.bouton a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+        
+}
+.form{
+    display: flex;
+}
+.form i{
+    background-color: rgba(242,242,242,255);
 }
 
 header{
     display: flex;
     justify-content: space-between;
 }
-header nav a{
-    padding-left: 1em;
-    text-decoration: none;
-    color: #3b89fd;
-}
+
 header nav{
     width: 23em;
     display: flex;
     justify-content: space-between ;
+}
+
+header nav a{
+    padding-left: 1em;
+    text-decoration: none;
+    color: #3b89fd;
 }
