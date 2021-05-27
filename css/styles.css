@@ -13,12 +13,11 @@ h1{
 }
 
 #formulaire{
-    border: 1px solid grey;
-    
+    border: 1px hidden grey;
     background-color: blue;
     width: 28em;
     background-color: blue;
-    border-radius: 10px;    
+    border-radius: 15px;    
 }
 
 #formulaire i{
@@ -29,7 +28,9 @@ h1{
 
 #formulaire input{
     width: 25em;
-    
+    font-weight: bold;
+    color: black;
+    font-size: 1em;
 }
 
 
