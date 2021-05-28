@@ -75,12 +75,11 @@ header nav a{
 #filter{
     display: flex;
     width: 45em;
-    
-}
+    }
 
 .filter-categories{
     display: flex;
-    justify-content: space-evenly;
+    
 }
 .filter-categories {
     padding-top: 0.3em;
@@ -92,15 +91,20 @@ header nav a{
     height: 2.85em;
     background-color: white;
     border-radius: 20px;
-    
-    
+    margin-left: 2em;
 }
 .btn i{
     background-color: #deebff;
     padding: 0.8em;
     border-radius: 20px;
-    padding-left: 0.9em;
-    
+    margin-right: 0.5em;
     color: #0065fc;
 }
+.info .fas{
+  
+    border: solid 2px #d9d9d9;
+    border-radius: 20px;
+    padding: 0.4em;
+}
+
 
