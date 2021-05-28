@@ -18,12 +18,14 @@ h1{
     width: 28em;
     background-color: blue;
     border-radius: 15px;    
+    margin-bottom: 1.8em;
 }
 
 #formulaire i{
     width: 4em;
     text-align: center;
-    
+    padding-top: 1em;
+    border-radius: 20px;
 }
 
 #formulaire input{
@@ -69,3 +71,36 @@ header nav a{
     text-decoration: none;
     color: #3b89fd;
 }
+
+#filter{
+    display: flex;
+    width: 45em;
+    
+}
+
+.filter-categories{
+    display: flex;
+    justify-content: space-evenly;
+}
+.filter-categories {
+    padding-top: 0.3em;
+
+}
+.btn{
+    border: #d9d9d9 solid 1px;
+    font-weight: bold;
+    height: 2.85em;
+    background-color: white;
+    border-radius: 20px;
+    
+    
+}
+.btn i{
+    background-color: #deebff;
+    padding: 0.8em;
+    border-radius: 20px;
+    padding-left: 0.9em;
+    
+    color: #0065fc;
+}
+
