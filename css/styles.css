@@ -74,33 +74,40 @@ header nav a{
 
 #filter{
     display: flex;
-    width: 45em;
+    width: 80em;
+    height: 3.2em;
     
 }
 
 .filter-categories{
     display: flex;
-    justify-content: space-evenly;
-}
-.filter-categories {
+    justify-content: space-around;
+    width: 65em;
     padding-top: 0.3em;
-
 }
-.btn{
-    border: #d9d9d9 solid 1px;
-    font-weight: bold;
-    height: 2.85em;
-    background-color: white;
+
+.btn {    
+    
     border-radius: 20px;
-    
-    
+    color: black;
+    font-weight: bold;
+    border: 1px solid #deebff;   
+    width: 14em; 
+        
 }
 .btn i{
     background-color: #deebff;
-    padding: 0.8em;
     border-radius: 20px;
-    padding-left: 0.9em;
+    color: #deebff;
+    padding: 0.90em;
     
-    color: #0065fc;
 }
+.btn .fas{
+    color: #0065fc;
+    border: 1px solid #deebff;
+    margin-right: 1em;
+}
+
+
+
 
