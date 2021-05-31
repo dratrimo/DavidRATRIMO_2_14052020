@@ -13,7 +13,7 @@ h1{
 }
 
 #formulaire{
-    border: 1px hidden grey;
+    /*border: 1px hidden grey; */
     background-color: blue;
     width: 28em;
     background-color: blue;
@@ -22,14 +22,16 @@ h1{
 }
 
 #formulaire i{
-    width: 4em;
+    width: 3.1em;
+    height: 1.25em;
     text-align: center;
     padding-top: 1em;
-    border-radius: 20px;
+    padding-bottom: 1.2em;
 }
 
 #formulaire input{
-    width: 25em;
+    width: 15em;
+    height: 3.1em;
     font-weight: bold;
     color: black;
     font-size: 1em;
@@ -76,7 +78,8 @@ header nav a{
     display: flex;
     width: 80em;
     height: 3.2em;
-    
+    font-weight: bold;
+    margin-bottom: 1.8em;
 }
 
 .filter-categories{
@@ -93,14 +96,13 @@ header nav a{
     font-weight: bold;
     border: 1px solid #deebff;   
     width: 14em; 
-        
+    height: 2.9em;
 }
 .btn i{
     background-color: #deebff;
     border-radius: 20px;
     color: #deebff;
     padding: 0.90em;
-    
 }
 .btn .fas{
     color: #0065fc;
