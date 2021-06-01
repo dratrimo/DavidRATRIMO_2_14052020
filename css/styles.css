@@ -146,14 +146,14 @@ header nav a{
     background-color: #f2f2f2;
     max-width: 90rem;
     width: 70%;
-    height: 34em;
+    height: 42.5em;
     border-radius: 20px;
 }
 .sectionDroite{
     background-color: #f2f2f2;
     max-width: 29em;
     width: 90%;
-    height: 34em;
+    height: 42.5em;
     border-radius: 20px;   
 }
 .leftPanel{
@@ -164,20 +164,20 @@ header nav a{
 }
 .leftArticle{
     width: 20em;
-    height: 10em;
+    height: 14.5em;
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+    margin-bottom: 2em;
 }
 .rightPanel{
     display: flex;
     flex-direction: column;
-    height: 29.5em;
-
+    height: 38em;
 }
 .rightArticle{
    width: 22em;
-   height: 8em;
+   height: 10em;
    background-color: #ffffff;
    border-radius: 20px;
    margin: 0 auto;
@@ -187,6 +187,7 @@ header nav a{
 .more{
     font-weight: bold;
     padding-left: 1.8em;
+    padding-top: 9em;
 }
 .more a{
     color: black;
@@ -200,6 +201,13 @@ header nav a{
     padding-left: 6em;
     padding-top: 1.5em;
     font-size: 1.3em;
+}
+.image{
+    background-image: url("/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg") ;
+    width: 20em;
+    height: 7em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 
