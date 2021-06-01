@@ -317,6 +317,8 @@ header nav a{
 
 .groupeActivité{
     display: flex;
+    width: 100%;
+    justify-content: space-between ;
 }
 .grandeImage {
     width: 23em;
@@ -331,7 +333,5 @@ header nav a{
 }
 .premierGroupe{
     display: flex;
-}
-.groupeActivité{
-    width: 300em;
+    
 }
