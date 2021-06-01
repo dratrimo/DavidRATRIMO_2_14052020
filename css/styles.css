@@ -2,6 +2,14 @@
     font-family: sans-serif;
 }
 
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 150rem;
+    width: 90%;
+   
+}
+
 .titre-nongras{
     font-weight: normal;
     font-size: 0.8em;
