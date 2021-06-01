@@ -143,15 +143,15 @@ header nav a{
 
 .sectionGauche{
     background-color: #f2f2f2;
-    max-width: 100rem;
-    width: 100%;
+    max-width: 90rem;
+    width: 80%;
     height: 34em;
     border-radius: 20px;
 }
 .sectionDroite{
-    background-color: blue;
+    background-color: #f2f2f2;
     max-width: 30em;
-    width: 100%;
+    width: 90%;
     height: 34em;
     border-radius: 20px;   
 }
@@ -159,7 +159,6 @@ header nav a{
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
-    text-align: center;
     height: 25em;
 }
 .leftArticle{
@@ -168,11 +167,19 @@ header nav a{
     background-color: #ffffff;
     border-radius: 20px;
 }
+.rightPanel{
+    display: flex;
+    flex-direction: column;
+    height: 29.5em;
+
+}
 .rightArticle{
-   width: 20em;
-   height: 7em;
-   background-color: coral;
+   width: 22em;
+   height: 8em;
+   background-color: #ffffff;
    border-radius: 20px;
+   margin: 0 auto;
+   margin-bottom: 3em;
 }
 .more{
     font-weight: bold;
@@ -183,5 +190,13 @@ header nav a{
     text-decoration: none;
 }
 
+.titlePop{
+  display: flex;
+}
+.titlePop i{
+    padding-left: 6em;
+    padding-top: 1.5em;
+    font-size: 1.3em;
+}
 
 
