@@ -312,3 +312,26 @@ header nav a{
 .populaires .fas{
     padding-top: 1.8em;
 }
+
+/*            SECTION ACTIVITéS           */
+
+.groupeActivité{
+    display: flex;
+}
+.grandeImage {
+    width: 23em;
+    height: 30em;
+    background-color: red;
+    
+}
+.petiteImage {
+    width: 20em;
+    height: 13.45em;
+    background-color: grey;
+}
+.premierGroupe{
+    display: flex;
+}
+.groupeActivité{
+    width: 300em;
+}
