@@ -1,6 +1,7 @@
 *{
     font-family: sans-serif;
-}
+   
+    }
 
 .container{
     margin-right: auto;
@@ -23,7 +24,7 @@ h1{
 }
 h2{
     font-weight: bold;
-    padding-left: 1.8em;
+    padding-left: 1.0em;
 }
 
 header{
@@ -145,15 +146,13 @@ header nav a{
 
 .sectionGauche{
     background-color: #f2f2f2;
-    max-width: 90rem;
-    width: 70%;
+    width: 56em;
     height: 42.5em;
     border-radius: 20px;
 }
 .sectionDroite{
     background-color: #f2f2f2;
-    max-width: 29em;
-    width: 90%;
+    width: 26em;
     height: 42.5em;
     border-radius: 20px;   
 }
@@ -164,18 +163,24 @@ header nav a{
     height: 25em;
 }
 .leftArticle{
-    width: 20em;
-    height: 14.5em;
+    width: 16em;
+    height: 14em;
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
     margin-bottom: 2em;
 }
+.groupePetiteImage{
+padding-left: 2em;
+padding-right: 2em;
+}
+
 .rightPanel{
     display: flex;
     flex-direction: column;
     height: 38em;
 }
+
 .rightArticle{
    width: 22em;
    height: 10em;
@@ -187,6 +192,10 @@ header nav a{
    display: flex;
    
 }
+#activité h2{
+    padding-top: 1em;
+}
+
 .hebergement{
     text-decoration: none;
 }
@@ -224,7 +233,7 @@ header nav a{
 }
 .image{
     background-image: url("/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg") ;
-    width: 20em;
+    width: 16em;
     height: 7em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -232,7 +241,7 @@ header nav a{
 }
 .image2{
     background-image: url("/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg") ;
-    width: 20em;
+    width: 16em;
     height: 7em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -240,7 +249,7 @@ header nav a{
 }
 .image3{
     background-image: url("/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg") ;
-    width: 20em;
+    width: 16em;
     height: 7em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -248,7 +257,7 @@ header nav a{
 }
 .image4{
     background-image: url("/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg") ;
-    width: 20em;
+    width: 16em;
     height: 7em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -256,7 +265,7 @@ header nav a{
 }
 .image5{
     background-image: url("/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg") ;
-    width: 20em;
+    width: 16em;
     height: 7em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -264,7 +273,7 @@ header nav a{
 }
 .image6{
     background-image: url("/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg") ;
-    width: 20em;
+    width: 16em;
     height: 7em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -318,16 +327,16 @@ header nav a{
 .groupeActivité{
     display: flex;
     width: 100%;
-    justify-content: space-between ;
+    /* justify-content: space-between ; */
 }
 .grandeImage {
-    width: 23em;
+    width: 21em;
     height: 30em;
     background-color: red;
     
 }
 .petiteImage {
-    width: 20em;
+    width: 18em;
     height: 13.45em;
     background-color: grey;
 }
