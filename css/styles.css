@@ -46,11 +46,36 @@ header nav a{
 /* ----------------MAIN--------------------- */
 
              /*    FORM     */
-
-#formulaire{
+.formulaire{
+    display: flex;
     background-color: blue;
     width: 28em;
+    border-radius: 15px;
+    margin-bottom: 1.8em;
+}
+
+.icona{
+    padding: 1.3em 1em;
+    background-color: #f2f2f2 ;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+#formulaire input{
+    width: 17em;
+    height: 3.4em;
+    font-weight: bold;
+    font-size: 1em;
+    color: #000000;
+}
+.formulaire a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+/* #formulaire{
     background-color: blue;
+    width: 28em;
     border-radius: 15px;    
     margin-bottom: 1.8em;
 }
@@ -69,11 +94,10 @@ header nav a{
     font-weight: bold;
     color: black;
     font-size: 1em;
-}
-
-
+} */
 .bouton{
     width: 200px;
+    margin-top: 1.3em;
     text-align: center;
     font-size: 1em;
 }
@@ -348,6 +372,7 @@ header nav a{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+
 .grandGroupeImage{
     display: flex;
 }
@@ -365,3 +390,7 @@ header nav a{
     flex-direction: column;
     justify-content: space-between;
     }
+.groupeImage a p{
+    padding-left: 1em;
+    font-weight: bold;
+}
