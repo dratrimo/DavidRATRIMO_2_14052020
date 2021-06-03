@@ -131,6 +131,9 @@ header nav a{
     width: 65em;
     padding-top: 0.3em;
 }
+.filter-categories .btn:hover{
+    background-color: red;
+}
 
 .btn {    
     
