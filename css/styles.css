@@ -407,8 +407,9 @@ header nav a{
     display: flex;
 }
 .groupeImage{
-    background-color: blue;
+    background-color: #ffffff;
     border-radius: 20px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
 }
 .groupeImage a{
     text-decoration: none;
@@ -423,4 +424,5 @@ header nav a{
 .groupeImage a p{
     padding-left: 1em;
     font-weight: bold;
+    color: black;
 }
