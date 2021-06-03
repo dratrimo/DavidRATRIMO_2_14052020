@@ -1,7 +1,6 @@
 *{
-    font-family: sans-serif;
-   
-    }
+    font-family: Raleway, sans-serif;
+}
 
 .container{
     margin-right: auto;
@@ -48,7 +47,7 @@ header nav a{
              /*    FORM     */
 .formulaire{
     display: flex;
-    background-color: blue;
+    background-color: #0065FC;
     width: 28em;
     border-radius: 15px;
     margin-bottom: 1.8em;
@@ -132,7 +131,7 @@ header nav a{
     padding-top: 0.3em;
 }
 .filter-categories .btn:hover{
-    background-color: red;
+    background-color: #deebff;
 }
 
 .btn {    
@@ -154,6 +153,7 @@ header nav a{
     color: #0065fc;
     border: 1px solid #deebff;
     margin-right: 1em;
+    
 }
 
 .info .fas{
