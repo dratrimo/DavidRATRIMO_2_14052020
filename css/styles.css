@@ -8,7 +8,7 @@
     width: 90%;   
 }
 
-/* ----------------HEADER------------------  */
+                                /* ----------------HEADER------------------  */
 
 .titre-nongras{
     font-weight: normal;
@@ -40,7 +40,7 @@ header nav a{
     text-decoration: none;
     color: #3b89fd;
 }
-/* ----------------MAIN--------------------- */
+                                /* ----------------MAIN--------------------- */
 
              /*    FORM     */
 .formulaire{
@@ -435,4 +435,28 @@ header nav a{
     padding-left: 1em;
     font-weight: bold;
     color: black;
+}
+                                /* ----------------FOOTER--------------------- */
+ul{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+     color: black;
+}
+ul {
+    padding-left: 0;
+}
+footer{
+    display: flex;
+    background-color: #f2f2f2;
+    margin-top: 4.5em;
+}
+.groupeFooter{
+    margin-right: 8em;
+    margin-left:6em;
+    padding-top: 2em;
+}
+ul li{
+    padding-bottom: 1em;   
 }
