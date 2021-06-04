@@ -5,9 +5,7 @@
 .container{
     margin-right: auto;
     margin-left: auto;
-    max-width: 150rem;
-    width: 90%;
-   
+    width: 90%;   
 }
 
 /* ----------------HEADER------------------  */
@@ -190,7 +188,7 @@ header nav a{
     height: 25em;
 }
 .leftArticle{
-    width: 16em;
+    width: 16.7em;
     height: 14em;
     background-color: #ffffff;
     border-radius: 20px;
@@ -240,8 +238,8 @@ header nav a{
 .more{
     font-weight: bold;
     padding-left: 1.8em;
-    padding-top: 7.5em;
-    font-size: 1.1em;
+    padding-top: 6.5em;
+    font-size: 1.3em;
 
 }
 .more a{
@@ -264,6 +262,8 @@ header nav a{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
+    margin: 0.3em 0px 0px 0.3em;
+    
 }
 .image2{
     background-image: url("/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg") ;
@@ -272,6 +272,7 @@ header nav a{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
+    margin: 0.3em 0px 0px 0.3em;
 }
 .image3{
     background-image: url("/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg") ;
@@ -280,6 +281,7 @@ header nav a{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
+    margin: 0.3em 0px 0px 0.3em;
 }
 .image4{
     background-image: url("/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg") ;
@@ -288,6 +290,7 @@ header nav a{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
+    margin: 0.3em 0px 0px 0.3em;
 }
 .image5{
     background-image: url("/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg") ;
@@ -296,6 +299,7 @@ header nav a{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
+    margin: 0.3em 0px 0px 0.3em;
 }
 .image6{
     background-image: url("/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg") ;
@@ -305,6 +309,7 @@ header nav a{
     border-top-right-radius: 20px;
     background-repeat: no-repeat;
     background-size:cover;
+    margin: 0.3em 0px 0px 0.3em;
 }
 .image7{
     background-image: url("/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
