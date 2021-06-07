@@ -1,6 +1,14 @@
 *{
-    font-family: sans-serif;
+    font-family: Raleway, sans-serif;
 }
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;   
+}
+
+                                /* ----------------HEADER------------------  */
 
 .titre-nongras{
     font-weight: normal;
@@ -9,50 +17,12 @@
 
 h1{
     color: black;
-        
+           
 }
-
-#formulaire{
-    border: 1px hidden grey;
-    background-color: blue;
-    width: 28em;
-    background-color: blue;
-    border-radius: 15px;    
-    margin-bottom: 1.8em;
-}
-
-#formulaire i{
-    width: 4em;
-    text-align: center;
-    padding-top: 1em;
-    border-radius: 20px;
-}
-
-#formulaire input{
-    width: 25em;
+h2{
     font-weight: bold;
-    color: black;
-    font-size: 1em;
-}
-
-
-.bouton{
-    width: 200px;
-    text-align: center;
-    font-size: 1em;
-}
-
-.bouton a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-        
-}
-.form{
-    display: flex;
-}
-.form i{
-    background-color: rgba(242,242,242,255);
+    padding-left: 1.0em;
+    font-size: 1.2em;
 }
 
 header{
@@ -72,24 +42,152 @@ header nav a{
     color: #3b89fd;
 }
 
+                                /* ----------------MAIN--------------------- */
+
+             /*    FORM     */
+
+#choice{
+    width: 72em;
+}
+             
+.formulaire{
+    display: flex;
+    background-color: #0065FC;
+    width: 28em;
+    border-radius: 15px;
+    margin-bottom: 1.8em;
+}
+
+.icona{
+    padding: 1.3em 1em;
+    background-color: #f2f2f2 ;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+#formulaire input{
+    width: 17em;
+    height: 3.4em;
+    font-weight: bold;
+    font-size: 1em;
+    color: #000000;
+}
+.formulaire a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+.bouton{
+    width: 200px;
+    margin-top: 1.3em;
+    text-align: center;
+    font-size: 1em;
+}
+
+.bouton a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+        
+}
+.form{
+    display: flex;
+}
+.form i{
+    background-color: rgba(242,242,242,255);
+}
+
+            /*      FILTRES     */
+
 #filter{
     display: flex;
-    width: 45em;
-    }
+    width: 80em;
+    height: 3.2em;
+    font-weight: bold;
+    margin-bottom: 1.8em;
+}
+#filter p{
+    padding-right: 1em;
+}
 
 .filter-categories{
     display: flex;
     
 }
-.filter-categories {
-    padding-top: 0.3em;
-
+.filter-categories a{
+    text-decoration: none;
+    padding-right: 1em;
 }
-.btn{
-    border: #d9d9d9 solid 1px;
+.filter-categories .btn:hover{
+    background-color: #deebff;
+}
+
+#filter{
+    display: flex;
+    width: 45em;
+    }
+.btn {    
+    
+    border-radius: 20px;
+    color: black;
     font-weight: bold;
-    height: 2.85em;
-    background-color: white;
+    border: 1px solid #deebff;   
+    width: 14em; 
+    height: 2.9em;
+}
+.btn i{
+    background-color: #deebff;
+    border-radius: 20px;
+    color: #deebff;
+    padding: 0.90em;
+}
+.btn .fas{
+    color: #0065fc;
+    border: 1px solid #deebff;
+    margin-right: 1em;
+    
+}
+
+.info .fas{
+    border: 1px solid #deebff; ;
+    border-radius: 20px;
+    color: #0065fc;
+    padding: 0.30em;
+}
+
+/*            SECTION HEBERGEMENT           */
+
+
+#hebergement{
+    display: flex;
+}
+
+.sectionGauche{
+    background-color: #f2f2f2;
+    width: 47em;
+    height: 39em;
+    border-radius: 20px;
+    padding-top: 1em;
+    margin-right: 1.5em;
+}
+.sectionDroite{
+    background-color: #f2f2f2;
+    width: 22.5em;
+    height: 39em;
+    border-radius: 20px;   
+    padding-top: 1em;
+}
+.leftPanel{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    height: 25em;
+    width: 46em;
+}
+.leftArticle{
+    width: 13em;
+    height: 13em;
+    background-color: #ffffff;
     border-radius: 20px;
     margin-left: 2em;
 }
@@ -107,4 +205,278 @@ header nav a{
     padding: 0.4em;
 }
 
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+    margin-bottom: 2em;
+}
 
+
+.rightPanel{
+    display: flex;
+    flex-direction: column;
+    height: 38em;
+}
+
+.rightArticle{
+   width: 19em;
+   height: 10em;
+   background-color: #ffffff;
+   border-radius: 20px;
+   margin: 0 auto;
+   margin-bottom: 2em;
+   box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+   display: flex;
+   
+}
+#activité h2{
+    padding-top: 1em;
+}
+
+.hebergement{
+    text-decoration: none;
+}
+
+.hebergement p{
+    color: black;
+    margin-left: 1em; 
+    line-height: 0.5em;
+}
+.nomHotel{
+    font-weight: bold;
+}
+
+.iconeHeb{
+    margin-left: 1em;
+    color:#0065fc ;
+}
+
+.more{
+    font-weight: bold;
+    padding-left: 1.8em;
+    padding-top: 5em;
+    font-size: 1.2em;
+
+}
+.more a{
+    color: black;
+    text-decoration: none;
+}
+
+.titlePop{
+  display: flex;
+}
+.titlePop i{
+    padding-left: 5em;
+    padding-top: 1em;
+    font-size: 1.3em;
+}
+.image{
+    background-image: url("/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg") ;
+    width: 12.5em;
+    height: 7em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+    margin: 0.3em 0px 0px 0.3em;
+    
+    
+}
+.image2{
+    background-image: url("/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg") ;
+    width: 12.5em;
+    height: 7em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+    margin: 0.3em 0px 0px 0.3em;
+    
+}
+.image3{
+    background-image: url("/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg") ;
+    width: 12.5em;
+    height: 7em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+    margin: 0.3em 0px 0px 0.3em;
+    
+}
+.image4{
+    background-image: url("/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg") ;
+    width: 12.5em;
+    height: 7em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+    margin: 0.3em 0px 0px 0.3em;
+    
+}
+.image5{
+    background-image: url("/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg") ;
+    width: 12.5em;
+    height: 7em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+    margin: 0.3em 0px 0px 0.3em;
+    
+}
+.image6{
+    background-image: url("/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg") ;
+    width: 12.5em;
+    height: 7em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0.3em 0px 0px 0.3em;
+    
+}
+.image7{
+    background-image: url("/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    width: 9em;
+    height: 10em;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.image8{
+    background-image: url("/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    width: 12.5em;
+    height: 10em;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.image9{
+    background-image: url("/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    width: 9em;
+    height: 10em;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.champ{
+    
+}
+.populaires{
+    text-decoration: none;
+}
+.populaires > p{
+    color: black;
+    margin-left: 1em;
+}
+.populaires .fas{
+    padding-top: 1.8em;
+}
+
+/*            SECTION ACTIVITéS           */
+
+.groupeActivité{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between ; */
+}
+.grandeImage1 {
+    width: 17em;
+    height: 30em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-size: cover;
+}
+.grandeImage2 {
+    width: 17em;
+    height: 30em;
+    background-color: red;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-size: cover;
+}
+.petiteImage1 {
+    width: 15.5em;
+    height: 15em;
+    background-color: grey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-size: cover;
+}
+.petiteImage2 {
+    width: 15.5em;
+    height: 9.5em;
+    background-color: grey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-size: cover;
+}
+.petiteImage3 {
+    width: 15.5em;
+    height: 11.5em;
+    background-color: grey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-size: cover;
+}
+.petiteImage4 {
+    width: 15.5em;
+    height: 13em;
+    background-color: grey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-size: cover;
+}
+.grandGroupeImage{
+    display: flex;
+}
+.groupeImage{
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+}
+.groupeImage a{
+    text-decoration: none;
+}
+.groupePetiteImage{
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+.groupeImage a p{
+    padding-left: 1em;
+    font-weight: bold;
+    color: black;
+}
+                                /* ----------------FOOTER--------------------- */
+ul{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+     color: black;
+}
+ul {
+    padding-left: 0;
+}
+footer{
+    display: flex;
+    background-color: #f2f2f2;
+    margin-top: 4.5em;
+    width: 97em;
+}
+.groupeFooter{
+    margin-right: 8em;
+    margin-left:6em;
+    padding-top: 2em;
+}
+ul li{
+    padding-bottom: 1em;   
+}
