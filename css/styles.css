@@ -360,7 +360,7 @@ header nav a{
     /* justify-content: space-between ; */
 }
 .grandeImage1 {
-    width: 21em;
+    width: 17em;
     height: 30em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -368,7 +368,7 @@ header nav a{
     background-size: cover;
 }
 .grandeImage2 {
-    width: 21em;
+    width: 17em;
     height: 30em;
     background-color: red;
     border-top-left-radius: 20px;
@@ -377,7 +377,7 @@ header nav a{
     background-size: cover;
 }
 .petiteImage1 {
-    width: 18em;
+    width: 15.5em;
     height: 15em;
     background-color: grey;
     border-top-left-radius: 20px;
@@ -386,7 +386,7 @@ header nav a{
     background-size: cover;
 }
 .petiteImage2 {
-    width: 18em;
+    width: 15.5em;
     height: 9.5em;
     background-color: grey;
     border-top-left-radius: 20px;
@@ -395,7 +395,7 @@ header nav a{
     background-size: cover;
 }
 .petiteImage3 {
-    width: 18em;
+    width: 15.5em;
     height: 11.5em;
     background-color: grey;
     border-top-left-radius: 20px;
@@ -404,7 +404,7 @@ header nav a{
     background-size: cover;
 }
 .petiteImage4 {
-    width: 18em;
+    width: 15.5em;
     height: 13em;
     background-color: grey;
     border-top-left-radius: 20px;
