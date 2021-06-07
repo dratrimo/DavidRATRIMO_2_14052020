@@ -44,6 +44,11 @@ header nav a{
                                 /* ----------------MAIN--------------------- */
 
              /*    FORM     */
+
+#choice{
+    width: 72em;
+}
+             
 .formulaire{
     display: flex;
     background-color: #0065FC;
@@ -100,15 +105,17 @@ header nav a{
     font-weight: bold;
     margin-bottom: 1.8em;
 }
+#filter p{
+    padding-right: 1em;
+}
 
 .filter-categories{
     display: flex;
-    justify-content: space-around;
-    width: 65em;
-    padding-top: 0.3em;
+    
 }
 .filter-categories a{
     text-decoration: none;
+    padding-right: 1em;
 }
 .filter-categories .btn:hover{
     background-color: #deebff;
@@ -440,6 +447,7 @@ footer{
     display: flex;
     background-color: #f2f2f2;
     margin-top: 4.5em;
+    width: 97em;
 }
 .groupeFooter{
     margin-right: 8em;
