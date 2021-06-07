@@ -156,7 +156,7 @@ header nav a{
 #hebergement{
     display: flex;
     justify-content: space-between;
-    width: 85em;
+    width: 72em;
 }
 
 .sectionGauche{
@@ -178,7 +178,7 @@ header nav a{
     height: 25em;
 }
 .leftArticle{
-    width: 16.7em;
+    width: 13em;
     height: 15.8em;
     background-color: #ffffff;
     border-radius: 20px;
@@ -247,65 +247,65 @@ header nav a{
 }
 .image{
     background-image: url("/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg") ;
-    width: 16em;
+    width: 12.5em;
     height: 7em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
     margin: 0.3em 0px 0px 0.3em;
-    padding-bottom: 1.5em;
+    
     
 }
 .image2{
     background-image: url("/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg") ;
-    width: 16em;
+    width: 12.5em;
     height: 7em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
     margin: 0.3em 0px 0px 0.3em;
-    padding-bottom: 1.5em;
+    
 }
 .image3{
     background-image: url("/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg") ;
-    width: 16em;
+    width: 12.5em;
     height: 7em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
     margin: 0.3em 0px 0px 0.3em;
-    padding-bottom: 1.5em;
+    
 }
 .image4{
     background-image: url("/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg") ;
-    width: 16em;
+    width: 12.5em;
     height: 7em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
     margin: 0.3em 0px 0px 0.3em;
-    padding-bottom: 1.5em;
+    
 }
 .image5{
     background-image: url("/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg") ;
-    width: 16em;
+    width: 12.5em;
     height: 7em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
     margin: 0.3em 0px 0px 0.3em;
-    padding-bottom: 1.5em;
+    
 }
 .image6{
     background-image: url("/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg") ;
-    width: 16em;
+    width: 12.5em;
     height: 7em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-repeat: no-repeat;
     background-size:cover;
     margin: 0.3em 0px 0px 0.3em;
-    padding-bottom: 1.5em;
+    
 }
 .image7{
     background-image: url("/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
