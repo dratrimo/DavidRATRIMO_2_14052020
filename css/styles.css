@@ -17,11 +17,12 @@
 
 h1{
     color: black;
-        
+           
 }
 h2{
     font-weight: bold;
     padding-left: 1.0em;
+    font-size: 1.2em;
 }
 
 header{
@@ -156,19 +157,18 @@ header nav a{
 #hebergement{
     display: flex;
     justify-content: space-between;
-    width: 72em;
 }
 
 .sectionGauche{
     background-color: #f2f2f2;
-    width: 56em;
-    height: 44em;
+    width: 46em;
+    height: 39em;
     border-radius: 20px;
 }
 .sectionDroite{
     background-color: #f2f2f2;
-    width: 26em;
-    height: 44em;
+    width: 22em;
+    height: 39em;
     border-radius: 20px;   
 }
 .leftPanel{
@@ -176,10 +176,11 @@ header nav a{
     justify-content:space-around;
     flex-wrap: wrap;
     height: 25em;
+    width: 46em;
 }
 .leftArticle{
     width: 13em;
-    height: 15.8em;
+    height: 13em;
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
@@ -215,8 +216,9 @@ header nav a{
 .hebergement p{
     color: black;
     margin-left: 1em; 
+    line-height: 0.5em;
 }
-.hebergement > p{
+.nomHotel{
     font-weight: bold;
 }
 
@@ -228,7 +230,7 @@ header nav a{
 .more{
     font-weight: bold;
     padding-left: 1.8em;
-    padding-top: 8.5em;
+    padding-top: 4.5em;
     font-size: 1.3em;
 
 }
@@ -241,8 +243,8 @@ header nav a{
   display: flex;
 }
 .titlePop i{
-    padding-left: 6em;
-    padding-top: 1.5em;
+    padding-left: 5em;
+    padding-top: 1em;
     font-size: 1.3em;
 }
 .image{
@@ -342,7 +344,6 @@ header nav a{
 }
 .populaires > p{
     color: black;
-    font-weight: bold;
     margin-left: 1em;
 }
 .populaires .fas{
