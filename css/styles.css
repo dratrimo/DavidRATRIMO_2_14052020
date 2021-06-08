@@ -25,6 +25,13 @@ h2{
     font-size: 1.2em;
 }
 
+h3{
+    font-size: 1em;
+    color: black;
+    padding-left: 1em;
+}
+
+
 header{
     display: flex;
     justify-content: space-between;
@@ -239,9 +246,6 @@ header nav a{
     color: black;
     margin-left: 1em; 
     line-height: 0.5em;
-}
-.nomHotel{
-    font-weight: bold;
 }
 
 .iconeHeb{
