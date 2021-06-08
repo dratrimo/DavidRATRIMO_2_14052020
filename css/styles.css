@@ -197,6 +197,8 @@ header nav a{
     background-color: #ffffff;
     border-radius: 20px;
     margin-left: 2em;
+    margin-bottom: 1.5em;
+    padding-bottom: 0.5em;
 }
 .btn i{
     background-color: #deebff;
