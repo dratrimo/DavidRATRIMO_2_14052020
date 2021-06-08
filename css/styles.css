@@ -38,13 +38,13 @@ header{
 }
 
 header nav{
-    width: 23em;
+    /*width: 23em;*/
     display: flex;
-    justify-content: space-between ;
+    /*justify-content: space-between ;*/
 }
 
 header nav a{
-    padding-left: 1em;
+    padding-left: 2em;
     text-decoration: none;
     color: #3b89fd;
 }
@@ -173,7 +173,7 @@ header nav a{
 .sectionGauche{
     background-color: #f2f2f2;
     width: 47em;
-    height: 39em;
+    /*height: 39em;*/
     border-radius: 20px;
     padding-top: 1em;
     margin-right: 1.5em;
@@ -181,7 +181,7 @@ header nav a{
 .sectionDroite{
     background-color: #f2f2f2;
     width: 22.5em;
-    height: 39em;
+    /*height: 39em;*/
     border-radius: 20px;   
     padding-top: 1em;
 }
@@ -198,6 +198,7 @@ header nav a{
     background-color: #ffffff;
     border-radius: 20px;
     margin-bottom: 1.5em;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
 }
 .btn i{
     background-color: #deebff;
@@ -212,16 +213,11 @@ header nav a{
     border-radius: 20px;
     padding: 0.4em;
 }
-
-    box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
-    margin-bottom: 2em;
-}
-
-
 .rightPanel{
     display: flex;
     flex-direction: column;
-    height: 38em;
+    align-items: center;
+    /*height: 38em;*/
 }
 
 .rightArticle{
