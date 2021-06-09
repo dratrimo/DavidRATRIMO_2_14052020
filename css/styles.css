@@ -190,13 +190,14 @@ header nav a{
 }
 .leftPanel{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     flex-wrap: wrap;
     height: 25em;
-    width: 40em;
+    width: 38em;
+    
 }
 .leftArticle{
-    width: 12em;
+    width: 11.9em;
     height: 13.45em;
     background-color: #ffffff;
     border-radius: 20px;
@@ -240,6 +241,11 @@ header nav a{
 
 .hebergement{
     text-decoration: none;
+}
+.hebergement h3{
+    font-size: 1em;
+    color: black;
+    /* padding-left: 1em; */
 }
 
 .hebergement p{
