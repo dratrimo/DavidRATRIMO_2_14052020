@@ -52,9 +52,7 @@ header nav a{
 
              /*    FORM     */
 
-#choice{
-    /* width: 72em; */
-}
+
              
 .formulaire{
     display: flex;
@@ -190,6 +188,8 @@ header nav a{
     padding-top: 1em;
     padding-left: 1em;
     padding-right: 1em;
+    display: flex;
+    flex-direction: column;
 }
 .leftPanel{
     display: flex;
@@ -228,12 +228,12 @@ header nav a{
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    height: 34em;
+    /* height: 34em; */
     justify-content: space-between;
 }
 
 .rightArticle{
-   width: 16.4em;
+   width: 18em;
    height: 10em;
    background-color: #ffffff;
    border-radius: 20px;
@@ -268,10 +268,12 @@ header nav a{
 .iconeHeb{
     /* margin-left: 1em; */
     color:#0065fc ;
+
 }
 .populaires h3{
     font-size: 1em;
-    color: red;
+    color: black;
+    padding-left: 0;
 }
 
 .more{
@@ -294,14 +296,17 @@ header nav a{
     padding-top: 1.2em;
     font-size: 1.3em;
 }
+.champ{
+    padding-left: 1em;
+    }
+}
 .image{
-    background-image: url("../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg") ;
+    background-image: url("../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg") ;
     height: 7em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
     margin: 0.3em 0.3em 0px 0.3em;
-    
     
 }
 .image2{
@@ -353,7 +358,7 @@ header nav a{
 .image7{
     background-image: url("../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     width: 9em;
-    height: 10em;
+    /* height: 10em; */
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     background-repeat: no-repeat;
@@ -362,7 +367,7 @@ header nav a{
 .image8{
     background-image: url("../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
     width: 12.5em;
-    height: 10em;
+    /* height: 10em; */
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     background-repeat: no-repeat;
@@ -371,7 +376,7 @@ header nav a{
 .image9{
     background-image: url("../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     width: 9em;
-    height: 10em;
+    /* height: 10em; */
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     background-repeat: no-repeat;
@@ -392,20 +397,21 @@ header nav a{
 
 .groupeActivité{
     display: flex;
-    width: 100%;
+    height: 32em;
+    /* width: 100%; */
     /* justify-content: space-between ; */
 }
 .grandeImage1 {
-    width: 17em;
-    height: 30em;
+    width: 14em;
+    height: 28em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-image: url(../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
     background-size: cover;
 }
 .grandeImage2 {
-    width: 17em;
-    height: 30em;
+    width: 14em;
+    height: 28em;
     background-color: red;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -413,8 +419,8 @@ header nav a{
     background-size: cover;
 }
 .petiteImage1 {
-    width: 15.5em;
-    height: 15em;
+    width: 13em;
+    height: 14em;
     background-color: grey;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -422,7 +428,7 @@ header nav a{
     background-size: cover;
 }
 .petiteImage2 {
-    width: 15.5em;
+    width: 13em;
     height: 9.5em;
     background-color: grey;
     border-top-left-radius: 20px;
@@ -431,7 +437,7 @@ header nav a{
     background-size: cover;
 }
 .petiteImage3 {
-    width: 15.5em;
+    width: 13em;
     height: 11.5em;
     background-color: grey;
     border-top-left-radius: 20px;
@@ -440,7 +446,7 @@ header nav a{
     background-size: cover;
 }
 .petiteImage4 {
-    width: 15.5em;
+    width: 13em;
     height: 13em;
     background-color: grey;
     border-top-left-radius: 20px;
@@ -460,8 +466,8 @@ header nav a{
     text-decoration: none;
 }
 .groupePetiteImage{
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -471,6 +477,70 @@ header nav a{
     font-weight: bold;
     color: black;
 }
+.vieuxPort{
+    width: 14em;
+    height: 28em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-size: cover;
+}
+.fort{
+    width: 13em;
+    height: 14em;
+    background-color: grey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-size: cover;
+}
+.frioul{
+    width: 13em;
+    height: 9.5em;
+    background-color: grey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-size: cover;
+}
+.calanques{
+    width: 14em;
+    height: 28em;
+    background-color: red;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(../images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-size: cover;
+}
+.notreDame{
+    width: 13em;
+    height: 11.5em;
+    background-color: grey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-size: cover;
+}
+.longchamp{
+    width: 13em;
+    height: 13em;
+    background-color: grey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-size: cover;
+}
+.groupeActif{
+    display: grid;
+    grid: repeat(2, 10em) / auto-flow 15em;
+
+}
+.groupeActif > div {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+
                                 /* ----------------FOOTER--------------------- */
 ul{
     list-style-type: none;
@@ -489,8 +559,8 @@ footer{
     
 }
 .groupeFooter{
-    margin-right: 8em;
-    margin-left:6em;
+    padding-right: 6em;
+    padding-left: 30px;
     padding-top: 2em;
 }
 .groupeFooter h3{
