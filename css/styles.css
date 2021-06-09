@@ -21,7 +21,7 @@ h1{
 }
 h2{
     font-weight: bold;
-    font-size: 1.2em;
+    
 }
 
 h3{
@@ -180,6 +180,7 @@ header nav a{
     margin-right: 1.5em;
     padding-left: 1em;
     padding-right: 1em;
+    padding-bottom: 3em;
 }
 .sectionDroite{
     background-color: #f2f2f2;
@@ -187,13 +188,15 @@ header nav a{
     /*height: 39em;*/
     border-radius: 20px;   
     padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 .leftPanel{
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
     height: 25em;
-    width: 38em;
+    /* width: 38em; */
     
 }
 .leftArticle{
@@ -224,8 +227,9 @@ header nav a{
 .rightPanel{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    /*height: 38em;*/
+    /* align-items: center; */
+    height: 34em;
+    justify-content: space-between;
 }
 
 .rightArticle{
@@ -233,7 +237,7 @@ header nav a{
    height: 10em;
    background-color: #ffffff;
    border-radius: 20px;
-   margin: 0 auto;
+   /* margin: 0 auto; */
    margin-bottom: 2em;
    box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
    display: flex;
@@ -272,8 +276,8 @@ header nav a{
 
 .more{
     font-weight: bold;
-    padding-left: 1.8em;
-    padding-top: 5em;
+    /* padding-left: 1.8em; */
+    padding-top: 6em;
     font-size: 1.2em;
 
 }
@@ -284,10 +288,10 @@ header nav a{
 
 .titlePop{
   display: flex;
+  justify-content: space-between;
 }
 .titlePop i{
-    padding-left: 5em;
-    padding-top: 1em;
+    padding-top: 1.2em;
     font-size: 1.3em;
 }
 .image{
