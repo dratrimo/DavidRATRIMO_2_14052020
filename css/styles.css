@@ -204,6 +204,10 @@ header nav a{
     margin-bottom: 1.5em;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
 }
+.leftArticle a h3 {
+    padding-left: 0;
+}
+
 .btn i{
     background-color: #deebff;
     padding: 0.8em;
@@ -225,7 +229,7 @@ header nav a{
 }
 
 .rightArticle{
-   width: 19em;
+   width: 16.4em;
    height: 10em;
    background-color: #ffffff;
    border-radius: 20px;
@@ -243,20 +247,27 @@ header nav a{
     text-decoration: none;
 }
 .hebergement h3{
-    font-size: 1em;
+    /* font-size: 1em; */
     color: black;
     /* padding-left: 1em; */
 }
 
 .hebergement p{
     color: black;
-    margin-left: 1em; 
+    /* margin-left: 1em;  */
     line-height: 0.5em;
+}
+.description{
+    padding-left: 0.5em;
 }
 
 .iconeHeb{
-    margin-left: 1em;
+    /* margin-left: 1em; */
     color:#0065fc ;
+}
+.populaires h3{
+    font-size: 1em;
+    color: red;
 }
 
 .more{
@@ -362,15 +373,12 @@ header nav a{
     background-repeat: no-repeat;
     background-size:cover;
 }
-.champ{
-    
-}
 .populaires{
     text-decoration: none;
 }
 .populaires > p{
     color: black;
-    margin-left: 1em;
+    /* margin-left: 1em; */
 }
 .populaires .fas{
     padding-top: 1.8em;
