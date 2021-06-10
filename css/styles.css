@@ -576,42 +576,45 @@ ul li{
 
 
 @media screen and (max-width:375px) {
-body{
-    background-color: green;
-    }
-header{
-   flex-wrap:wrap;
-
-}
-header img {
-    padding-bottom: 1em;
-}
-html{
-  
-}
-
 .container{
-    margin: 5px;
-    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header{
+ flex-wrap: wrap;
+    width: 24em;
+    
 }
 header nav{
-    /* border-bottom: 1px solid blue; */
-    padding-bottom: 1em;
-    width: 340px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 325px;
+    justify-content: flex-end;
+    
 }
 header nav a{
-    padding-right: 3em;
+    padding-left: 4em;
+    padding-right: 1em;
+   
 }
-#choice {
-width: 23rem;
+.inscription{
+    padding-bottom: 2em;
 }
+
+#formulaire{
+    width: 40px;
+}
+
 #filter{
-    flex-direction: column;
+    display: block;
 }
 .filter-categories{
     flex-wrap: wrap;
+    width: 45em;
 }
 }
+
+
 /*
 @media (min-width:501px) and (max-width:767px) {
 body{
