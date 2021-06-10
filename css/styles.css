@@ -399,8 +399,8 @@ header nav a{
 .groupeActivité{
     display: flex;
     height: 32em;
-    /* width: 100%; */
-    /* justify-content: space-between ; */
+    width: 100%;
+    justify-content: space-between ;
 }
 .grandeImage1 {
     width: 14em;
