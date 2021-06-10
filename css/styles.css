@@ -28,14 +28,12 @@ h3{
     color: black;
     padding-left: 1em;
 }
-
-
-header{
+.entete{
     display: flex;
     justify-content: space-between;
 }
 
-header nav{
+.entete nav ul{
     /*width: 23em;*/
     display: flex;
     /*justify-content: space-between ;*/
