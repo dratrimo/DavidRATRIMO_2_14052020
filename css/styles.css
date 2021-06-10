@@ -3,9 +3,8 @@ body{
 }
 
 .container{
-    margin-right: 30px;
-    margin-left: 30px;
-    /* width: 90%;    */
+    margin: 0 auto;
+    width: 90%;   
 }
 
                                 /* ----------------HEADER------------------  */
@@ -612,6 +611,10 @@ header nav a{
 .filter-categories{
     flex-wrap: wrap;
     width: 45em;
+}
+.searching{
+    display: none;
+    
 }
 
 }
