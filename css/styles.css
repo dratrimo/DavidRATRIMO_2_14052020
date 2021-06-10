@@ -190,6 +190,7 @@ header nav a{
     padding-right: 1em;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .leftPanel{
     display: flex;
@@ -410,7 +411,7 @@ header nav a{
     background-size: cover;
 }
 .grandeImage2 {
-    width: 14em;
+    width: 15em;
     height: 28em;
     background-color: red;
     border-top-left-radius: 20px;
