@@ -6,6 +6,7 @@
 
 body{
     font-family: Raleway, sans-serif;
+   
 }
 
 .container{
@@ -252,6 +253,7 @@ header nav a{
 }
 .groupeHebergement{
     display: flex;
+    height: 44em;
 }
 
 .hebergement{
@@ -609,16 +611,22 @@ body{
 }
 
 .groupeHebergement{
-    flex-direction: column;
-    align-items: center;
-    
+    /* flex-direction: column; */
+    /* align-items: center; */
+    height: 55em;
+}
+.more{
+    display: none;
 }
 .sectionGauche{
-width: 95%;
+width: 995%;
 
 }
 .sectionDroite{
-width: 80%;
+width: 34%;
+}
+#filter{
+    width: 50em;
 }
 
 @media (min-width:1025px){
