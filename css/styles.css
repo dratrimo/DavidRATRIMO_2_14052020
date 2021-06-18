@@ -27,7 +27,7 @@ h1{
 }
 h2{
     font-weight: bold;
-    
+    padding-left: ;
 }
 
 h3{
@@ -200,7 +200,7 @@ header nav a{
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
-    height: 25em;
+    height: 28.4em;
     /* width: 38em; */
     
 }
@@ -212,6 +212,8 @@ header nav a{
     margin-bottom: 1.5em;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
 }
+
+
 .leftArticle a h3 {
     padding-left: 0;
 }
@@ -238,8 +240,8 @@ header nav a{
 }
 
 .rightArticle{
-   width: 18em;
-   height: 10em;
+   width: 16em;
+   height: 11em;
    background-color: #ffffff;
    border-radius: 20px;
    /* margin: 0 auto; */
@@ -254,6 +256,8 @@ header nav a{
 .groupeHebergement{
     display: flex;
     height: 44em;
+    width: auto;
+
 }
 
 .hebergement{
@@ -288,7 +292,7 @@ header nav a{
 .more{
     font-weight: bold;
     /* padding-left: 1.8em; */
-    padding-top: 6em;
+    padding-top: 4em;
     font-size: 1.2em;
 
 }
@@ -306,7 +310,7 @@ header nav a{
     font-size: 1.3em;
 }
 .champ{
-    padding-left: 1em;
+    padding-left: 0.5em;
     }
 }
 .image{
@@ -404,6 +408,10 @@ header nav a{
 
 /*            SECTION ACTIVITéS           */
 
+.activité{
+    width: 90%;
+    margin: 0 auto;
+}
 .groupeActivité{
     display: flex;
     height: 32em;
@@ -597,7 +605,17 @@ body{
 .filter-categories{
         flex-wrap: wrap;
     }
-
+.groupeHebergement{
+        flex-direction: column; 
+         align-items: center;
+        height: 100em;
+    }
+    .more{
+        display: none;
+    }
+.sectionGauche{
+    height: 49em;
+}
 }
 
 @media (min-width:769px) and (max-width:1023px){
@@ -627,6 +645,9 @@ width: 34%;
 }
 #filter{
     width: 50em;
+}
+.rightArticle{
+    width: 16em;
 }
 
 @media (min-width:1025px){
