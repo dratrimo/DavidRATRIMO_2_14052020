@@ -12,7 +12,7 @@ h1{
 }
 h2{
     font-size: 1.3rem;
-    padding-left: 24px;
+    /* padding-left: 24px; */
     }
 p{
     color: black;
@@ -170,16 +170,14 @@ color: #3b89fd;
             .sectionGauche{
                 flex: 2;
                 background-color: #F2F2F2;
-                height: 38rem;
+                height: 41rem;
+                border-radius: 5%;
             }
             .leftPanel{
               display: flex;
               flex-wrap: wrap;
               margin: 0 auto;
-              width: 95%;
-              
-              justify-content: space-around;
-
+              justify-content: space-between;
             }
             .leftPanel article{
                 width: 31%;
@@ -196,8 +194,9 @@ color: #3b89fd;
                 
             }
             .sectionDroite{
-                flex: 1;
+                flex: 1.2;
                 background-color: #F2F2F2;
+                border-radius: 7%;
             }
             
             .hebergement img{
@@ -208,8 +207,7 @@ color: #3b89fd;
                 padding-top: 5px;
                 border-top-left-radius: 10px;
                 border-top-right-radius: 10px;
-                
-            }
+                }
             .imageCover{
                 width :100%;
                 height: 6.8rem;
@@ -217,8 +215,19 @@ color: #3b89fd;
                 border-top-left-radius: 10px;
                 border-top-right-radius: 10px;
                 }
+            
+                .imageCover2{
+                    width :55%;
+                    height: 8.5rem;
+                    background-color: white;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                    }
             .description{
                 padding-left: 5px;
+            }
+            .hebergement .description{
+                line-height: 1rem;
             }
             .iconeHeb{
                 color: #0065FC;
@@ -235,9 +244,54 @@ color: #3b89fd;
                 text-decoration: none;
                 padding-left: 24px;
             }
+            .leftMarge{
+                padding-top: 1rem;
+                margin: 0 auto;
+                width: 92%; 
+            }
+
+            .marge{
+                padding-top: 1rem;
+                margin: 0 auto;
+                width: 85%; 
+            }
+
+            .titlePop{
+                display: flex;
+                justify-content: space-between;
+            }
+            .imageCover2 img{
+                width: 94%;
+                height: inherit;
+                object-fit: cover;
+                padding-left: 5px;
+                padding-top: 5px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                }
+            .titlePop .fas{
+                padding-top: 1.2rem;
+            }
+            .populaires{
+                display: flex;
+            }
+            .rightArticle{
+                background-color: white;
+                height: 9rem;
+            }
+            .rightPanel{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 31rem;
+            }
+            
+            .sectionDroite{
+
+            }
             
 
-                       /* SECTION ACTIVITéS           */ 
+                       /*       SECTION ACTIVITéS           */ 
             
             .activité{
                 width: 90%;
