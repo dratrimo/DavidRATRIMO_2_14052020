@@ -236,14 +236,14 @@ color: #3b89fd;
                 color: #F2F2F2;
             }
             .more{
-                font-weight: bold;
-              
+                padding-top: 2rem;
             }
             .more a{
+                font-size: 1.1rem;
                 color: black;
                 text-decoration: none;
-                padding-left: 24px;
-            }
+                font-weight: bold;
+             }
             .leftMarge{
                 padding-top: 1rem;
                 margin: 0 auto;
@@ -267,7 +267,7 @@ color: #3b89fd;
                 padding-left: 5px;
                 padding-top: 5px;
                 border-top-left-radius: 10px;
-                border-top-right-radius: 10px;
+                border-bottom-left-radius: 10px;
                 }
             .titlePop .fas{
                 padding-top: 1.2rem;
@@ -278,16 +278,17 @@ color: #3b89fd;
             .rightArticle{
                 background-color: white;
                 height: 9rem;
+                border-radius: 7%;
             }
             .rightPanel{
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                height: 31rem;
+                height: 33rem;
             }
             
-            .sectionDroite{
-
+            .rightDescription p{
+                margin-bottom: 1.8rem;
             }
             
 
