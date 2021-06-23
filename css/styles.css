@@ -82,6 +82,10 @@ color: #3b89fd;
                 font-size: 1em;
                 color: #000000;
             }
+            ::placeholder{
+                color: black;
+                padding-left: 8px;
+            }
             .formulaire a{
                 text-decoration: none;
                 color: white;
@@ -193,11 +197,7 @@ color: #3b89fd;
                 flex: 0.1;
                 
             }
-            .sectionDroite{
-                flex: 1.2;
-                background-color: #F2F2F2;
-                border-radius: 7%;
-            }
+            
             
             .hebergement img{
                 width: 94%;
@@ -272,6 +272,12 @@ color: #3b89fd;
             .titlePop .fas{
                 padding-top: 1.2rem;
             }
+                /* ****  POPULAIRES **** */
+            .sectionDroite{
+                flex: 1.2;
+                background-color: #F2F2F2;
+                border-radius: 7%;
+            }
             .populaires{
                 display: flex;
             }
@@ -290,10 +296,73 @@ color: #3b89fd;
             .rightDescription p{
                 margin-bottom: 1.8rem;
             }
+            .champ a {
+                text-decoration: none;
+            }
+            
             
 
-                       /*       SECTION ACTIVITéS           */ 
+/*       SECTION ACTIVITéS           */ 
             
+.activites{
+    display: flex;
+}
+
+.entreImage{
+    flex: 0.1;
+}
+.bigImage img{
+    width: 100%;
+    height: 21.5rem;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.doubleImage{
+    flex: 1;
+    height: 25em;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+}
+.image2{
+flex: 1.6;
+background-color: brown;
+}
+.image2 img{
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.image3{
+flex: 1;
+background-color: cornflowerblue;
+}
+.image3 img{
+    width: 100%;
+    height: 6rem;
+}
+.bigImage{
+    flex: 1.1;
+    height: 25em;
+}
+.image4{
+flex: 1.4;
+background-color: crimson;
+
+}
+.image5{
+flex: 2;
+background-color: darkcyan;
+}
+
+
+
+
             .activité{
                 width: 90%;
                 margin: 0 auto;
