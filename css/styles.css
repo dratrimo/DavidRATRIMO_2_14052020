@@ -142,6 +142,9 @@ height: 3.6em;
 .buttonFilter a{
     font-size: 1rem;
 }
+.buttonFilter a:hover{
+    background-color: #0065FC;
+}
     
              
             
@@ -269,7 +272,7 @@ height: 3.6em;
     text-decoration: none;
 }
 .imageCover2{
-    width :45%;
+    width :55%;
     height: 8.5rem;
     background-color: white;
     border-top-left-radius: 10px;
