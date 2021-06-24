@@ -324,13 +324,17 @@ color: #3b89fd;
 .doubleImage{
     flex: 1;
     height: 25em;
-    background-color: chartreuse;
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
 .image2{
 flex: 1.6;
-background-color: brown;
+background-color: white;
+margin-bottom: 1rem;
+box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+border-radius: 5%;
+
 }
 .image2 img{
     width: 100%;
@@ -338,12 +342,15 @@ background-color: brown;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    
 }
 
 
 .image3{
 flex: 1;
-background-color: cornflowerblue;
+background-color: white;
+box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+border-radius: 5%;
 }
 .image3 img{
     width: 100%;
@@ -351,6 +358,7 @@ background-color: cornflowerblue;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    
 }
 .image4 img{
     width: 100%;
@@ -359,28 +367,35 @@ background-color: cornflowerblue;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+.image5{
+    flex: 2;
+    background-color: white;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+    border-radius: 5%;
+    
+    }
+
 .image5 img{
     width: 100%;
     height: 11rem;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
+   }
 .bigImage{
     flex: 1.1;
-    height: 25em;
+    height: 25.7rem;
     border-radius: 5%;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
 }
 .image4{
 flex: 1.4;
-background-color: crimson;
+background-color: white;
+margin-bottom: 1rem;
+box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+border-radius: 5%;
+}
 
-}
-.image5{
-flex: 2;
-background-color: darkcyan;
-}
 
 
 
