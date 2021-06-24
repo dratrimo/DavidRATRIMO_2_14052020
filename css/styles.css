@@ -15,7 +15,9 @@ p{
     margin: 0 auto;
     width: 95%; 
 }
-
+a{
+    text-decoration: none;
+}
 
  /* ----------------HEADER------------------  */
 
@@ -66,7 +68,7 @@ height: 3.6em;
 .formulaire input{
      padding-top: 1.5em;
     font-weight: bold;    
-    height: 1em;
+    height: 1.17em;
      padding-bottom: 1.5em;
      border: 1px solid #F2F2F2 ;
  }
@@ -89,6 +91,10 @@ height: 3.6em;
     color: black;
     padding-left: 8px;
 }
+.formulaire a:hover{
+    background-color: red;
+    color:black
+}
              
             
 /****************  FILTRES **********************    */
@@ -101,14 +107,14 @@ height: 3.6em;
 #filtres li{
     font-weight: bold;
     list-style-type: none;
-    padding-right: 0.7rem;
+    
     
 }
 #filtres ul{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 80%;
+    width: 85%;
     
 }
 #filtres ul li:first-child{
@@ -121,7 +127,7 @@ height: 3.6em;
 .buttonFilter{
     border: 2px #F2F2F2 solid;
     border-radius: 30px;
-    /* padding: 1em; */
+    padding-right: 1rem;
 }
 .buttonFilter .fas{
     color: #0065FC;
@@ -142,10 +148,10 @@ height: 3.6em;
 .buttonFilter a{
     font-size: 1rem;
 }
-.buttonFilter a:hover{
-    background-color: #0065FC;
+
+a:hover {
+    background-color: #476e9e;
 }
-    
              
             
 /*****************  SECTION HEBERGEMENT ********************/
@@ -419,17 +425,29 @@ body{
 }
 
 @media (min-width:375px) and (max-width:768px) {
-body{
-    background-color: orange;
-    }
+
+.sectionGauche{
+    margin-bottom: 1rem;
+}
+
+
 .filter-categories{
         flex-wrap: wrap;
     }
+.marge{
+    padding-top: 0;
+    height: 38.4rem;
+    padding-bottom: 1rem;
+}
 .groupeHebergement{
         flex-direction: column; 
          align-items: center;
-        height: 100em;
+        height: 72em;
     }
+#activites{
+    padding-top: 2rem;
+}
+
     .more{
         display: none;
     }
@@ -438,10 +456,10 @@ body{
 }
 }
 
-@media (min-width:769px) and (max-width:1023px){
+@media (min-width:769px) and (max-width:978px){
 
-body{
+/* body{
     max-width: 1024px;
-}
+} */
 
 }
