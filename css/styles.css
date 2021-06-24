@@ -420,11 +420,61 @@ footer{
 
 @media screen and (max-width:375px) {
 body{
-    background-color: green;
+    background-color: ;
+    margin: auto;
     }
+.container{
+    margin-left: 0;
+    margin-right: 0;
+}
+.groupeHebergement{
+    margin-left: 0;
+    margin-right: 0;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 82em;
+}
+.entete{
+    display: block;
 }
 
-@media (min-width:375px) and (max-width:768px) {
+.entete nav li:nth-last-child(2){
+    border-bottom: 1px solid #F2F2F2;
+    
+        
+}
+.entete nav li:nth-last-child(3){
+    border-bottom: 1px solid #F2F2F2;
+        
+}
+.choice{
+    flex-wrap: wrap-reverse;
+    margin-left: 3rem;
+    
+}
+.leftPanel{
+    flex-direction: column;
+    
+}
+.leftPanel article{
+    width: auto;
+    
+}
+.activites{
+    margin-top: 55rem;
+}
+.activites {
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flexFooter{
+    flex-direction: column;
+}
+
+
+}
+
+@media (min-width:376px) and (max-width:768px) {
 
 .sectionGauche{
     margin-bottom: 1rem;
