@@ -61,56 +61,41 @@ color: #3b89fd;
 
              /*    FORM     */
              .formulaire{
-                display: flex;
-                background-color: #0065FC;
-                width: 28em;
-                height: 3rem;
                 border-radius: 15px;
-                margin-bottom: 1rem;
+                display: flex;
+                width: 20em;
+                height: 3.6em;
             }
-            
+            .icona .fas{
+                padding: 1.4em;
+            }
+            .formulaire input{
+                padding-top: 1.5em;
+                font-weight: bold;    
+                height: 1em;
+                padding-bottom: 1.5em;
+                border: 1px solid #F2F2F2 ;
+            }
+            .formulaire a{
+                padding: 1.2em;
+                width: 7em;
+                border-bottom-right-radius: 15px;
+                border-top-right-radius: 15px;
+                background-color: #0065FC;
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+            }
             .icona{
-                padding: 1.1em 1em;
-                background-color: #f2f2f2 ;
                 border-bottom-left-radius: 15px;
                 border-top-left-radius: 15px;
-            }
-            #formulaire input{
-                width: 17em;
-                height: 2.65rem;
-                font-weight: bold;
-                font-size: 1em;
-                color: #000000;
+                background-color: #F2F2F2;
             }
             ::placeholder{
                 color: black;
                 padding-left: 8px;
             }
-            .formulaire a{
-                text-decoration: none;
-                color: white;
-                font-weight: bold;
-                margin: auto;
-            }
-            .bouton{
-                width: 200px;
-                margin-top: 1.3em;
-                text-align: center;
-                font-size: 1em;
-            }
-            
-            .bouton a{
-                color: white;
-                text-decoration: none;
-                font-weight: bold;
-                    
-            }
-            .form{
-                display: flex;
-            }
-            .form i{
-                background-color: rgba(242,242,242,255);
-            }
+             
             
                         /*      FILTRES     */
 
