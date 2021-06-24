@@ -91,7 +91,7 @@ height: 3.6em;
 }
              
             
-/*      FILTRES     */
+/****************  FILTRES **********************    */
 
 #filtres ul{
     padding: 0;
@@ -145,7 +145,7 @@ height: 3.6em;
     
              
             
-/*            SECTION HEBERGEMENT           */
+/*****************  SECTION HEBERGEMENT ********************/
 
 .groupeHebergement{
     display: flex;
@@ -197,13 +197,7 @@ height: 3.6em;
     border-top-right-radius: 10px;
     }
 
-    .imageCover2{
-        width :55%;
-        height: 8.5rem;
-        background-color: white;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        }
+
 .description{
     padding-left: 5px;
 }
@@ -241,19 +235,11 @@ height: 3.6em;
     display: flex;
     justify-content: space-between;
 }
-.imageCover2 img{
-    width: 94%;
-    height: inherit;
-    object-fit: cover;
-    padding-left: 5px;
-    padding-top: 5px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    }
+
 .titlePop .fas{
     padding-top: 1.2rem;
 }
-/* ****  POPULAIRES **** */
+/*****************    POPULAIRES   ********************/
 
 .sectionDroite{
     flex: 1.2;
@@ -282,8 +268,24 @@ height: 3.6em;
 .champ a {
     text-decoration: none;
 }
+.imageCover2{
+    width :45%;
+    height: 8.5rem;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+.imageCover2 img{
+    width: 75%;
+    height: inherit;
+    object-fit: cover;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
             
-/*       SECTION ACTIVITéS           */ 
+/***********       SECTION ACTIVITéS      ***********/ 
             
 .activites{
     display: flex;
@@ -373,7 +375,9 @@ margin-bottom: 1rem;
 box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
 border-radius: 5%;
 }
-
+#activites{
+    margin-bottom: 3rem;
+}
 /* ----------------FOOTER--------------------- */
 ul{
     list-style-type: none;
@@ -382,22 +386,19 @@ ul li a{
     text-decoration: none;
      color: black;
 }
+
 ul {
     padding-left: 0;
 }
 footer{
-    display: flex;
     background-color: #f2f2f2;
-    margin-top: 4.5em;
-    
 }
-.groupeFooter{
-    padding-right: 6em;
+.flexFooter{
+    display: flex;
+    width: 70%;
     padding-left: 30px;
-    padding-top: 2em;
-}
-.groupeFooter h3{
-    padding: 0;
+    padding-top: 1.5rem;
+    justify-content: space-between;
 }
 
 /*       MEDIA QUERIES             */
