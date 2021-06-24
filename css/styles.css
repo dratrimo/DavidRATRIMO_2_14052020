@@ -152,6 +152,8 @@ height: 3.6em;
 
 .groupeHebergement{
     display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .sectionGauche{
     flex: 2;
@@ -289,7 +291,11 @@ height: 3.6em;
     }
             
 /***********       SECTION ACTIVITéS      ***********/ 
-            
+#activites{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 .activites{
     display: flex;
 }
