@@ -467,6 +467,20 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+.bigImage img{
+    height: 11rem;
+}
+
+.image2 a img{
+    height: 11rem;
+}
+.image3 a img{
+    height: 11rem;
+}
+.image4 a img{
+    height: 11rem;
+}
+
 .flexFooter{
     flex-direction: column;
 }
