@@ -158,8 +158,8 @@ a:hover {
 
 .groupeHebergement{
     display: flex;
-    margin-left: 2%;
-    margin-right: 2%;
+    /* margin-left: 0 2%;
+    margin-right: 0 2%; */
 }
 .sectionGauche{
     flex: 2;
@@ -298,8 +298,8 @@ a:hover {
             
 /***********       SECTION ACTIVITéS      ***********/ 
 #activites{
-    margin-left: 2%;
-    margin-right: 2%;
+    /* margin-left: 0 2%;
+    margin-right: 0 2%; */
 }
 
 .activites{
