@@ -106,15 +106,15 @@ height: 3.6em;
 
 #filtres li{
     font-weight: bold;
-    list-style-type: none;
-    
-    
+    list-style-type: none;    
+}
+#nav2 li{
+    margin-right: 15px;
 }
 #filtres ul{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    width: 85%;
+    width: 95%;
     
 }
 #filtres ul li:first-child{
@@ -123,11 +123,12 @@ height: 3.6em;
 #filtres ul li a{
     text-decoration: none;
     color: black;
+    padding-right: 20px;
 }
 .buttonFilter{
     border: 2px #F2F2F2 solid;
     border-radius: 30px;
-    padding-right: 1rem;
+    padding-right: 5px;
 }
 .buttonFilter .fas{
     color: #0065FC;
@@ -222,7 +223,7 @@ a:hover {
     color: #F2F2F2;
 }
 .more{
-    padding-top: 2rem;
+    padding-top: 30px;
 }
 .more a{
     font-size: 1.1rem;
@@ -418,7 +419,7 @@ footer{
 /*       MEDIA QUERIES             */
 
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:425px) {
 body{
     
     margin: auto;
@@ -485,7 +486,7 @@ body{
 
 }
 
-@media (min-width:376px) and (max-width:768px) {
+@media (min-width:426px) and (max-width:768px) {
 
 .sectionGauche{
     margin-bottom: 1rem;
@@ -519,8 +520,8 @@ body{
 
 @media (min-width:769px) and (max-width:978px){
 
-/* body{
-    max-width: 1024px;
-} */
+body{
+    background-color: red;
+}
 
 }
