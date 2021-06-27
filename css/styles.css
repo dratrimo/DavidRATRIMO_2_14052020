@@ -418,18 +418,25 @@ footer{
 
 /*       MEDIA QUERIES             */
 
-@media screen and (max-width:425px) {
-
-
+@media (max-width:374px){
 
 }
 
 
-@media screen and  (max-width:425px) {
-body{
-    
+@media (min-width:375px)  and  (max-width:425px) {
+body{ 
     margin: auto;
-    }
+}
+#filtres #nav2 li:nth-child(1){
+    /* padding-right: 300px; */
+    padding-right: 9rem;
+}
+#filtres #nav2 li{
+    margin-bottom: 10px;
+}
+#filtres #nav2 li a{
+    font-size: 12.5px;
+}
 
 .groupeHebergement{
     margin-left: 0;
@@ -510,9 +517,7 @@ aheb2 a{
 
 @media (min-width:426px) and (max-width:768px) {
 
-.choice{
 
-}
 .sectionGauche{
     margin-bottom: 1rem;
 }
