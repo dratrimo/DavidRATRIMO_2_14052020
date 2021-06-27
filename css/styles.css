@@ -10,15 +10,13 @@ h1{
 h2{
     font-size: 20px;
     font-weight: bold;
-    /* padding-left: 24px; */
     }
 h3{
 font-size: 14px;
 color: black;
 }
 p{
-    
-    color: black;
+      color: black;
 }
 .container{
     margin: 0 auto;
@@ -45,9 +43,12 @@ display: flex;
 }
                                 
 header nav a{
-padding-left: 50px;
+padding-left: 30px;
 text-decoration: none;
 color: #3b89fd;
+}
+.choice{
+    /* padding-left: 1px; */
 }
 
 
@@ -222,7 +223,7 @@ a:hover {
     padding-top: 30px;
 }
 .more a{
-    font-size: 1.1rem;
+    font-size: 17px;
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -252,7 +253,7 @@ a:hover {
 .sectionDroite{
     flex: 1.2;
     background-color: #F2F2F2;
-    border-radius: 7%;
+    border-radius: 5%;
 }
 .populaires{
     display: flex;
@@ -417,8 +418,14 @@ footer{
 
 /*       MEDIA QUERIES             */
 
-
 @media screen and (max-width:425px) {
+
+
+
+}
+
+
+@media screen and  (max-width:425px) {
 body{
     
     margin: auto;
@@ -435,19 +442,35 @@ body{
     display: block;
 }
 
-.entete nav li:nth-last-child(2){
-    border-bottom: 1px solid #F2F2F2;
-    
-        
-}
 .entete nav li:nth-last-child(3){
-    border-bottom: 1px solid #F2F2F2;
-        
+    /* border-bottom: 2px solid #F2F2F2; */
 }
+
 .choice{
     flex-wrap: wrap-reverse;
-    margin-left: 3rem;
+    justify-content: space-around;
     
+}
+.entete{
+    border-bottom: 2px solid #F2F2F2;
+}
+
+.aheb1 a{
+    color: #0065FC;
+    padding-left: 0;
+}
+aheb2 a{
+    padding-left: 80px;
+}
+.ainscript{
+ padding-left: 220px;
+ position: relative;
+ bottom: 50px;
+ font-weight: bold;
+
+}
+.ainscript a{
+    color: #0065FC;
 }
 .leftPanel{
     flex-direction: column;
@@ -487,6 +510,9 @@ body{
 
 @media (min-width:426px) and (max-width:768px) {
 
+.choice{
+
+}
 .sectionGauche{
     margin-bottom: 1rem;
 }
