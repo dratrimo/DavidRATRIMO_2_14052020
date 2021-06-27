@@ -418,17 +418,11 @@ footer{
 
 /*       MEDIA QUERIES             */
 
-@media (max-width:374px){
-
-}
-
-
-@media (min-width:375px)  and  (max-width:425px) {
+@media  (max-width:425px) {
 body{ 
     margin: auto;
 }
 #filtres #nav2 li:nth-child(1){
-    /* padding-right: 300px; */
     padding-right: 9rem;
 }
 #filtres #nav2 li{
@@ -437,7 +431,10 @@ body{
 #filtres #nav2 li a{
     font-size: 12.5px;
 }
-
+.formulaire a {
+    padding: 0;
+    font-size: 5px;
+}
 .groupeHebergement{
     margin-left: 0;
     margin-right: 0;
@@ -447,10 +444,6 @@ body{
 }
 .entete{
     display: block;
-}
-
-.entete nav li:nth-last-child(3){
-    /* border-bottom: 2px solid #F2F2F2; */
 }
 
 .choice{
@@ -466,9 +459,7 @@ body{
     color: #0065FC;
     padding-left: 0;
 }
-aheb2 a{
-    padding-left: 80px;
-}
+
 .ainscript{
  padding-left: 220px;
  position: relative;
@@ -513,6 +504,9 @@ aheb2 a{
 }
 .image4 a img{
     height: 11rem;
+}
+.sectionGauche{
+    background-color: white;
 }
 
 .flexFooter{
