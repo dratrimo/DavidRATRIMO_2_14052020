@@ -487,9 +487,10 @@ aheb2 a{
     width: auto;
     
 }
-.activites{
-    margin-top: 55rem;
+#activites h2{
+    padding-top: 53rem;
 }
+
 .activites {
     flex-direction: column;
     justify-content: space-between;
