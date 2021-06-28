@@ -117,7 +117,7 @@ height: 3.6em;
 
              
             
-/****************  FILTRES **********************    */
+/****************FILTRES***********************/
 
 #filtres ul{
     padding: 0;
@@ -444,7 +444,7 @@ footer{
     line-height: 2rem;
 }
 
-/*       MEDIA QUERIES             */
+                /****************** MEDIA QUERIES *****************/
 
 @media  (max-width:425px) {
 body{ 
