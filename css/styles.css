@@ -436,6 +436,10 @@ footer{
     padding-top: 1.5rem;
     justify-content: space-between;
 }
+.groupeFooter h3{
+    font-size: 17px;
+    font-weight: bold;
+}
 .groupeFooter ul li {
     line-height: 2rem;
 }
