@@ -411,6 +411,9 @@ border-radius: 5%;
 #activites{
     margin-bottom: 3rem;
 }
+.nomActivite{
+    padding-left: 10px;
+}
 /* ----------------FOOTER--------------------- */
 ul{
     list-style-type: none;
