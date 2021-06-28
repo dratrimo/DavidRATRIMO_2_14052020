@@ -210,7 +210,7 @@ height: 3.6em;
 
 
 .hebergement img{
-    width: 94%;
+    width: 95%;
     height: inherit;
     object-fit: cover;
     padding-left: 5px;
@@ -505,6 +505,9 @@ body{
     width: auto;
     
 }
+.rightArticle{
+    margin-bottom: 1.5rem;
+}
 #activites h2{
     padding-top: 53rem;
 }
@@ -534,6 +537,9 @@ body{
 }
 .sectionGauche{
     background-color: white;
+}
+.hebergement img{
+    width: 97%;        
 }
 
 .flexFooter{
