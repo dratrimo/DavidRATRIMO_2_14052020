@@ -469,6 +469,9 @@ body{
     align-items: center;
     height: 82em;
 }
+.description{
+    padding-left: 15px;
+}
 .entete{
     display: block;
 }
