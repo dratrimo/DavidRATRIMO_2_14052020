@@ -47,8 +47,13 @@ padding-left: 30px;
 text-decoration: none;
 color: #3b89fd;
 }
-.choice{
-    /* padding-left: 1px; */
+.effects:hover{
+    color: #0065FC;
+    font-weight: bold;
+    
+}
+.effects:visited{
+    color: #0065FC;
 }
 
 
@@ -66,7 +71,8 @@ height: 3.6em;
 }
 .formulaire input{
      padding-top: 1.5em;
-    font-weight: bold;    
+    font-weight: bold; 
+    width: 180px;   
     height: 1.17em;
      padding-bottom: 1.5em;
      border: 1px solid #F2F2F2 ;
@@ -147,6 +153,9 @@ height: 3.6em;
     border-radius: 30px;
     padding-right: 5px;
 }
+.buttonFilter:hover{
+    background-color: #0065FC ;
+}
 .buttonFilter .fas{
     color: #0065FC;
     padding-right: 1rem;
@@ -167,9 +176,6 @@ height: 3.6em;
     font-size: 1rem;
 }
 
-a:hover {
-    background-color: #476e9e;
-}
              
             
 /*****************  SECTION HEBERGEMENT ********************/
@@ -575,8 +581,6 @@ body{
 
 @media (min-width:769px) and (max-width:978px){
 
-body{
-    background-color: red;
-}
+
 
 }
