@@ -592,8 +592,10 @@ body{
 }
 }
 
-@media (min-width:769px) and (max-width:1000px){
+@media (min-width:426px) and (max-width:1000px){
 
-
+    #filtres #nav2 li{
+        margin-bottom: 10px;
+    }
 
 }
