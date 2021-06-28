@@ -96,10 +96,7 @@ height: 3.6em;
     color: black;
     padding-left: 8px;
 }
-.formulaire a:hover{
-    background-color: red;
-    color:black
-}
+
 .iconeLoupe{
     border: 1px solid #0065FC;
     width: 3.4rem;
@@ -579,7 +576,7 @@ body{
 }
 }
 
-@media (min-width:769px) and (max-width:978px){
+@media (min-width:769px) and (max-width:1000px){
 
 
 
