@@ -49,7 +49,7 @@ color: #3b89fd;
 }
 .effects:hover{
     color: #0065FC;
-    font-weight: bold;
+    
     
 }
 .effects:visited{
@@ -151,7 +151,8 @@ height: 3.6em;
     padding-right: 5px;
 }
 .buttonFilter:hover{
-    background-color: #0065FC ;
+    background-color: #F2F2F2;
+    color: #0065FC;
 }
 .buttonFilter .fas{
     color: #0065FC;
