@@ -422,6 +422,9 @@ ul li a{
     text-decoration: none;
      color: black;
 }
+ul li a:hover{
+    color: #0065FC;
+}
 
 ul {
     padding-left: 0;
