@@ -179,11 +179,11 @@ height: 3.6em;
 
 .groupeHebergement{
     display: flex;
+    height: 39rem;
 }
 .sectionGauche{
     flex: 2;
     background-color: #F2F2F2;
-    height: 41rem;
     border-radius: 5%;
 }
 .leftPanel{
@@ -472,6 +472,7 @@ body{
     flex-direction: column-reverse;
     align-items: center;
     height: 82em;
+    padding-top: 50rem;
 }
 .description{
     padding-left: 15px;
@@ -514,9 +515,6 @@ body{
 }
 .rightArticle{
     margin-bottom: 1.5rem;
-}
-#activites h2{
-    padding-top: 53rem;
 }
 
 .activites {
