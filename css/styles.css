@@ -325,6 +325,12 @@ height: 3.6em;
     display: flex;
 }
 
+figcaption{
+    padding-top: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
 .entreImage{
     flex: 0.1;
 }
@@ -449,7 +455,7 @@ footer{
 
                 /****************** MEDIA QUERIES *****************/
 
-@media  (max-width:425px) {
+@media  (max-width:426px) {
 body{ 
     margin: auto;
 }
@@ -557,7 +563,7 @@ body{
 
 }
 
-@media (min-width:426px) and (max-width:768px) {
+@media (min-width:427px) and (max-width:768px) {
 
 
 .sectionGauche{
