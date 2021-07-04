@@ -45,14 +45,16 @@ display: flex;
 }
                                 
 header nav a{
-padding-left: 30px;
+padding-left: 15px;
 text-decoration: none;
 color: #3b89fd;
 }
 .effects:hover{
     color: #0065FC;
-    
-    
+}
+.effects:hover{
+    border-top: 1px solid #3b89fd;
+    padding-top: 10px;
 }
 .effects:visited{
     color: #0065FC;
