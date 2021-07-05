@@ -455,13 +455,50 @@ body{
     margin: auto;
 }
 .navigation{
-    height: 3rem;
+    height: 2.2rem;
     width: 370px;
     border-bottom: 2px solid #F2F2F2;
+   
 }
-.effects:hover{
-    border-bottom: 1px solid #3b89fd;
-    padding-top: 10px;
+.aheb1 a:hover{
+    border-top: 0px solid white;
+    
+}
+.aheb1 a:after{
+    
+    content: '';
+    display: block;
+    margin: auto;
+    height: 1px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.aheb1 a:hover:after{
+    
+    width: 90%;
+    background: #0065FC;
+}
+.aheb2 a:hover{
+    border-top: 0px solid white;
+    
+}
+.aheb2 a:after{
+    
+    content: '';
+    display: block;
+    margin: auto;
+    height: 1px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.aheb2 a:hover:after{
+    
+    width: 90%;
+    background: #0065FC;
 }
 #filtres #nav2 li:nth-child(1){
     padding-right: 9rem;
