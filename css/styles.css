@@ -90,6 +90,7 @@ color: #3b89fd;
     text-decoration: none;
     color: white;
     font-weight: bold;
+    height: 1.2rem;
 }
 .icona{
     border-bottom-left-radius: 15px;
@@ -320,12 +321,6 @@ color: #3b89fd;
     display: flex;
 }
 
-figcaption{
-    padding-top: 1rem;
-    font-weight: bold;
-    color: black;
-}
-
 .entreImage{
     flex: 0.1;
 }
@@ -451,6 +446,10 @@ footer{
 @media  (max-width:426px) {
 body{ 
     margin: auto;
+}
+.effects:hover{
+    border-bottom: 1px solid #3b89fd;
+    padding-top: 10px;
 }
 #filtres #nav2 li:nth-child(1){
     padding-right: 9rem;
