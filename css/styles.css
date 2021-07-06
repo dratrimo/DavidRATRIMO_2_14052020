@@ -30,16 +30,30 @@ a{
 }
 
  /* ----------------HEADER------------------  */
+ header{
+     display: flex;
+     justify-content: space-between;
+ }
 
  .titre-nongras{
  font-weight: normal;
  font-size: 0.8em;
 }
 .navigation{
-    width: 385px;
+    width: 290px;
+    
 }
 .choice{
-    justify-content: space-between;
+    display: flex;
+}
+.aheb1{
+  
+}
+.aheb2{
+    padding-left: 30px;
+}
+.ainscript{
+    padding-left: 30px;
 }
                                 
 .entete{
@@ -84,7 +98,7 @@ color: #3b89fd;
      padding-top: 1.5em;
     font-weight: bold; 
     width: 180px;   
-    height: 1.17em;
+    height: 1.3em;
      padding-bottom: 1.5em;
      border: 1px solid #F2F2F2 ;
  }
@@ -97,7 +111,7 @@ color: #3b89fd;
     text-decoration: none;
     color: white;
     font-weight: bold;
-    height: 1.2rem;
+    height: 1.25rem;
 }
 .icona{
     border-bottom-left-radius: 15px;
@@ -283,7 +297,7 @@ color: #3b89fd;
 }
 .rightArticle{
     background-color: white;
-    height: 9rem;
+    height: 10.5rem;
     border-radius: 7%;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
 }
@@ -300,18 +314,21 @@ color: #3b89fd;
 .rightDescription p{
     margin-bottom: 1.8rem;
 }
+.iconeHeb{
+    padding-top: 15px;
+}
 .champ a {
     text-decoration: none;
 }
 .imageCover2{
     width :130px;
-    height: 8.5rem;
+    height: 9.9rem;
     background-color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     }
 .imageCover2 img{
-    width: 90%;
+    width: 116px;
     height: inherit;
     object-fit: cover;
     padding-left: 5px;
@@ -319,6 +336,22 @@ color: #3b89fd;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     }
+.imageCover2Thin{
+        width : 130px;
+        height: 9.9rem;
+        background-color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .imageCover2Thin img{
+        width: 116px;
+        height:inherit;
+        object-fit:cover;
+        padding-left: 5px;
+        padding-top: 5px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        }
             
 /***********       SECTION ACTIVITéS      ***********/ 
 
@@ -446,7 +479,11 @@ footer{
     line-height: 2rem;
 }
 
-                /****************** MEDIA QUERIES *****************/
+/****************** MEDIA QUERIES *****************/
+
+/* @media (min-width:320px) and (max-width:379px) {
+
+} */
 
 @media  (max-width:426px) {
 body{ 
@@ -454,9 +491,8 @@ body{
 }
 .navigation{
     height: 2.2rem;
-    width: 370px;
-    border-bottom: 2px solid #F2F2F2;
-   
+    width: 80%;
+    border-bottom: 2px solid #F2F2F2;   
 }
 .aheb1 a:hover{
     border-top: 0px solid white;
@@ -522,6 +558,7 @@ body{
 .groupeHebergement{
     margin-left: 0;
     margin-right: 0;
+    margin-top: 9rem;
     flex-direction: column-reverse;
     align-items: center;
     height: 82em;
@@ -568,8 +605,21 @@ body{
     width: auto;
     
 }
+.marge{
+    padding-bottom: 1.5rem;
+}
 .rightArticle{
     margin-bottom: 1.5rem;
+}
+.sectionDroite{
+    width: 100%;
+    border-radius: 0;
+}
+.imageCover2{
+    height: 8.75rem;
+}
+.imageCover2Thin{
+    height: 8.75rem;
 }
 
 .activites {
@@ -608,7 +658,7 @@ body{
 
 }
 
-@media (min-width:427px) and (max-width:768px) {
+@media (min-width:427px) and (max-width:945px) {
 
 .sectionGauche{
     margin-bottom: 1rem;
