@@ -553,7 +553,7 @@ header{
     flex-direction: column-reverse;
     align-items: center;
     height: 82em;
-    padding-top: 50rem;
+    padding-top: 45rem;
 }
 .description{
     padding-left: 15px;
@@ -606,6 +606,9 @@ header{
 }
 .imageCover2Thin{
     height: 8.75rem;
+}
+.iconeHeb{
+    padding-top:0;
 }
 
 .activites {
