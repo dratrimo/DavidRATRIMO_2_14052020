@@ -46,9 +46,7 @@ a{
 .choice{
     display: flex;
 }
-.aheb1{
-  
-}
+
 .aheb2{
     padding-left: 30px;
 }
@@ -472,10 +470,6 @@ footer{
 
 /****************** MEDIA QUERIES *****************/
 
-/* @media (min-width:320px) and (max-width:379px) {
-
-} */
-
 @media  (max-width:426px) {
 body{ 
     margin: auto;
@@ -510,6 +504,9 @@ header{
 }
 .aheb2 a:hover{
     border-top: 0px solid white;
+    
+}
+.aheb2{
     
 }
 .aheb2 a:after{
@@ -564,7 +561,8 @@ header{
 
 .choice{
     flex-wrap: wrap-reverse;
-    justify-content: space-around;   
+    justify-content: space-between;
+    margin-left: 30px;
 }
 
 .aheb1 a{
@@ -576,7 +574,7 @@ header{
 }
 
 .ainscript{
- padding-left: 260px;
+ padding-left: 94%;
  position: relative;
  bottom: 50px;
  font-weight: bold;
