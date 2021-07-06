@@ -476,6 +476,11 @@ body{
 header{
     display: block;
 }
+.effects:hover{
+    border-top: 0;
+    border-bottom: 1px solid #3b89fd;
+    padding-bottom: 13px;
+}
 .navigation{
     height: 2.2rem;
     width: 100%;
