@@ -56,15 +56,6 @@ a{
     padding-left: 30px;
 }
                                 
-.entete{
- display: flex;
-justify-content: space-between;
-}
-                                
-.entete nav ul{
-display: flex;
-}
-                                
 header nav a{
 
 text-decoration: none;
@@ -489,6 +480,9 @@ footer{
 body{ 
     margin: auto;
 }
+header{
+    display: block;
+}
 .navigation{
     height: 2.2rem;
     width: 80%;
@@ -567,9 +561,6 @@ body{
 .description{
     padding-left: 15px;
 }
-.entete{
-    display: block;
-}
 
 .choice{
     flex-wrap: wrap-reverse;
@@ -581,9 +572,6 @@ body{
     padding-left: 0;
 }
 .aheb1 a:hover{
-    border-bottom: #0065FC;
-}
-.entete{
     border-bottom: #0065FC;
 }
 
