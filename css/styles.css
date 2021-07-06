@@ -55,9 +55,8 @@ a{
 }
                                 
 header nav a{
-
 text-decoration: none;
-color: #3b89fd;
+color: black;
 }
 .effects:hover{
     color: #0065FC;
@@ -479,7 +478,7 @@ header{
 }
 .navigation{
     height: 2.2rem;
-    width: 80%;
+    width: 100%;
     border-bottom: 2px solid #F2F2F2;   
 }
 .aheb1 a:hover{
@@ -507,7 +506,7 @@ header{
     
 }
 .aheb2{
-    
+  padding-right: 15%;  
 }
 .aheb2 a:after{
     
@@ -575,7 +574,7 @@ header{
 }
 
 .ainscript{
- padding-left: 94%;
+ padding-left: 76%;
  position: relative;
  bottom: 50px;
  font-weight: bold;
